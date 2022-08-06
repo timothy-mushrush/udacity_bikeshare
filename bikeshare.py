@@ -29,6 +29,7 @@ def input_filter():
     Asks user to specify a city, month, and day of the week to analyze.
 
     Args:
+        N/A
 
     Returns:
         (str) city - name of the city to analyze
@@ -118,7 +119,7 @@ def time_stats(df, city, month_input, day_input):
         (str) day_input - name of the day of week to filter by, or "all" to apply no day filter
 
     Returns:
-
+        N/A
     """
     print('Calculating the most frequent times of travel...\n\n')
     function_start_time = time.time()
@@ -168,7 +169,7 @@ def station_stats(df, city, month_input, day_input):
         (str) day_input - name of the day of week to filter by, or "all" to apply no day filter
 
     Returns:
-
+        N/A
     """
     print('Calculating the most popular stations and trip...\n\n')
     function_start_time = time.time()
@@ -217,7 +218,7 @@ def trip_duration_stats(df, city, month_input, day_input):
         (str) day_input - name of the day of week to filter by, or "all" to apply no day filter
 
     Returns:
-
+        N/A
     """
     print('Calculating trip duration...\n\n')
     function_start_time = time.time()
@@ -260,7 +261,7 @@ def user_stats(df, city, month_input, day_input):
         (str) day_input - name of the day of week to filter by, or "all" to apply no day filter
 
     Returns:
-
+        N/A
     """
     function_start_time = time.time()
     print('\nCalculating user stats...\n')
