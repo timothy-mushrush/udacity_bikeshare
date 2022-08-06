@@ -15,6 +15,13 @@ ___
 - new_york_city.csv
 - washington.csv
 ___
+## References:
+- [Udacity git repository](https://github.com/udacity/pdsnd_github)
+- Unaltered data files:
+  - [chicago.csv](https://www.divvybikes.com/system-data)
+  - [new_york_city.csv](https://www.citibikenyc.com/system-data)
+  - [washington.csv](https://www.capitalbikeshare.com/system-data)
+___
 ## Credits:
 - Timothy Mushrush 
   - **GitHub:** timothy-mushrush
