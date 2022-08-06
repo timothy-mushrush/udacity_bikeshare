@@ -1,9 +1,6 @@
-### Date created
-August 5th, 2022
-
-### Project Title
-Udacity Bikeshare
-
+# Udacity Bikeshare
+**Date Created:** *August 5th, 2022*
+___
 ### Description
 This project was conducted as part of the Udacity Python data science/programming course. It takes in user inputs to
 first select a particular city's data. Second, the user is prompted to choose month and/or day of the week to analyze.
