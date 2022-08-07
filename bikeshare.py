@@ -61,7 +61,7 @@ def input_filter():
         else:
             print('Incorrect input for day of the week. Input \"all\" or a day. Day should be spelled out as shown:')
             print('Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday\n')
-    print('-'*50)
+    print('-'*55)
     return city, month_input, day_input
 
 
@@ -104,7 +104,7 @@ def load_data(city, month_input, day_input):
     # Create hour column in df
     df['start_hour'] = df.start_time.dt.hour
     print(f'It took {(time.time() - function_start_time)} seconds to load the data')
-    print('-' * 50)
+    print('-' * 55)
     return df
 
 
@@ -154,7 +154,7 @@ def time_stats(df, city, month_input, day_input):
             print(f'In {city_cap} the most common travel time on {day_cap}s in {month_cap} is {most_common_hour}.')
     print()
     print(f'It took {(time.time() - function_start_time)} seconds to calculate these time statistics')
-    print('-'*50)
+    print('-'*55)
     return None
 
 
@@ -204,7 +204,7 @@ def station_stats(df, city, month_input, day_input):
             print(f'For {day_cap}s in {month_cap}, {city_cap}\'s most common trip taken is {most_common_trip}.')
     print()
     print(f'It took {(time.time() - function_start_time)} seconds to calculate the station statistics')
-    print('-'*50)
+    print('-'*55)
     return None
 
 
@@ -248,7 +248,7 @@ def trip_duration_stats(df, city, month_input, day_input):
             print(f'In {city_cap} the average travel time on {day_cap}s in {month_cap} is {avg_travel} seconds.')
 
     print(f'\nIt took {(time.time() - function_start_time)} seconds to calculate the duration statistics')
-    print('-'*50)
+    print('-'*55)
     return None
 
 
@@ -345,7 +345,7 @@ def user_stats(df, city, month_input, day_input):
                 print(f'In {city_cap} the most recent birth year on {day_cap}s in {month_cap} is {latest_by}.')
                 print(f'In {city_cap} the most common birth year on {day_cap}s in {month_cap} is {most_common_by}.')
     print(f'\nIt took {(time.time() - function_start_time)} seconds to calculate the user statistics')
-    print('-' * 50)
+    print('-' * 55)
     return None
 
 
