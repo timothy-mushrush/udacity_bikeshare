@@ -205,6 +205,7 @@ def station_stats(df, city, month_input, day_input):
     print()
     print(f'It took {(time.time() - function_start_time)} seconds to calculate the station statistics')
     print('-'*50)
+    return None
 
 
 def trip_duration_stats(df, city, month_input, day_input):
@@ -248,6 +249,7 @@ def trip_duration_stats(df, city, month_input, day_input):
 
     print(f'\nIt took {(time.time() - function_start_time)} seconds to calculate the duration statistics')
     print('-'*50)
+    return None
 
 
 def user_stats(df, city, month_input, day_input):
@@ -344,6 +346,7 @@ def user_stats(df, city, month_input, day_input):
                 print(f'In {city_cap} the most common birth year on {day_cap}s in {month_cap} is {most_common_by}.')
     print(f'\nIt took {(time.time() - function_start_time)} seconds to calculate the user statistics')
     print('-' * 50)
+    return None
 
 
 def main():
@@ -381,6 +384,7 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
+    return None
 
 
 if __name__ == "__main__":
